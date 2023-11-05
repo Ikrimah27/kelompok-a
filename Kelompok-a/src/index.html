@@ -4,8 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/dist/output.css" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Sertakan font kustom (misalnya, Google Fonts) -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Sertakan ikon (misalnya, Font Awesome) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-white font-montserrat">
   <nav class="bg-blue-600">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-16 items-center justify-between">
@@ -98,6 +103,39 @@
     </div>
   </nav>
     
-  </h1>
+
+    <div class="bg-white p-4 rounded-md shadow-md">
+        <h1 class="text-4xl font-bold text-blue-600 mb-4">Selamat datang di Konten PHP</h1>
+        <div class="p-4 rounded-lg bg-gray-200">
+            <img src="/image/sintax php.JPG" alt="Deskripsi Gambar" class="w-64 h-64 rounded-lg shadow-lg mx-auto mb-4" />
+            <p class="my-4 text-gray-800">Ini adalah teks konten yang dihasilkan oleh PHP.</p>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                <i class="fas fa-hand-pointer mr-2"></i>Klik Saya
+            </button>
+            <ul class="list-disc ml-6 my-4">
+                <li class="text-gray-800">Item 1</li>
+                <li class="text-gray-800">Item 2</li>
+                <li class="text-gray-800">Item 3</li>
+            </ul>
+            <table class="min-w-full my-4 table-auto">
+                <thead>
+                    <tr>
+                        <th class="px-6 py-3 text-left text-blue-600">Judul 1</th>
+                        <th class="px-6 py-3 text-left text-blue-600">Judul 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="px-6 py-4">Data 1</td>
+                        <td class="px-6 py-4">Data 2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-gray-800 p-4 text-center ">
+        <p class="text-white">&copy; 2023 Nama Anda. Hak Cipta Dilindungi.</p>
+    </footer>
 </body>
 </html>
